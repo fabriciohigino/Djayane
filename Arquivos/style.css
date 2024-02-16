@@ -1,0 +1,45 @@
+body{
+    background: gray;
+    background: url(./img/imagem\ de\ fundo.jpg);
+}
+
+#title, .subtitle, .post_title{
+ color: blue;
+}
+
+.post{
+    background: wheat;
+    padding: 10px;
+    border: solid 4px red;
+    margin: 10px;
+}
+
+
+.mascote {
+    text-align:center;
+    padding: 1px;
+ }
+.mascote img{
+    width: 300px;
+    border: solid 3px red;
+}
+
+.imagem img{
+    width: 300px;
+    border: solid red 3px;
+}
+
+.imagem-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Define um layout de flexbox */
+}
+
+.imagem-lista li {
+    margin-right: 10px; /* Espaçamento entre as imagens */
+}
+
+.imagem-lista li:last-child {
+    margin-right: 0; /* Remove o espaçamento à direita da última imagem */
+}
