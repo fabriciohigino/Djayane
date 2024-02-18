@@ -1,32 +1,65 @@
 body{
     background: gray;
     background: url(./img/imagem\ de\ fundo.jpg);
+    max-width: 1000px;
+    margin: auto;
+    border: solid 2px red;
 }
 
 #title, .subtitle, .post_title{
- color: blue;
+ color: #505050;
 }
 
-.post{
-    background: wheat;
-    padding: 10px;
-    border: solid 4px red;
-    margin: 10px;
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+    border: solid 3px red;
+    border-radius: 5px;
+    background-color: whitesmoke;   
 }
 
-
+a{
+    text-decoration: overline;
+    color: #505050;
+}
 .mascote {
     text-align:center;
     padding: 1px;
  }
+
 .mascote img{
     width: 300px;
     border: solid 3px red;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.post{
+    background: wheat;
+    padding: 15px;
+    border: solid 4px red;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.post_title{
+    font-size:16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_content{
+    margin: 0px;
+    margin-bottom: 15px;
+    text-align: justify;
 }
 
 .imagem img{
     width: 300px;
+    height: 300px;
     border: solid red 3px;
+    border-radius: 10%;  
 }
 
 .imagem-lista {
@@ -38,8 +71,16 @@ body{
 
 .imagem-lista li {
     margin-right: 10px; /* Espaçamento entre as imagens */
+    padding: 10px;
 }
 
 .imagem-lista li:last-child {
     margin-right: 0; /* Remove o espaçamento à direita da última imagem */
+}
+
+.contacts_list{
+    list-style-type: none;
+    background: #fff;
+    border: solid 2px ;
+    border-radius: 5px;
 }
