@@ -1,21 +1,18 @@
 body{
-    background: gray;
+    background: rgba(128, 128, 128, 0.271);
     background: url(./img/imagem\ de\ fundo.jpg);
     max-width: 1000px;
     margin: auto;
-    border: solid 2px red;
-}
-
-#title, .subtitle, .post_title{
- color: #505050;
 }
 
 #title{
+    color: #505050;
     font-size: 40px;
     text-transform: uppercase;
-    border: solid 3px red;
+    border: solid 2px rgba(255, 0, 0, 0.09);
     border-radius: 5px;
-    background-color: whitesmoke;   
+    background-color: rgba(245, 245, 245, 0.785);  
+    text-align: center; 
 }
 
 a{
@@ -29,15 +26,15 @@ a{
 
 .mascote img{
     width: 300px;
-    border: solid 3px red;
+    border: solid 2px rgb(0, 89, 255, 0.352);
     margin-bottom: 15px;
     border-radius: 5px;
 }
 
 .post{
-    background: wheat;
+    background: rgba(245, 245, 245, 0.785);
     padding: 15px;
-    border: solid 4px red;
+    border: solid 2px rgba(255, 0, 0, 0.09);
     margin: 15px;
     border-radius: 10px;
 }
@@ -56,17 +53,20 @@ a{
 }
 
 .imagem img{
-    width: 300px;
+    width: 250px;
     height: 300px;
-    border: solid red 3px;
+    border: solid rgba(0, 89, 255, 0.352) 5px;
     border-radius: 10%;  
+
 }
 
 .imagem-lista {
     list-style: none;
-    padding: 0;
+    padding: 1;
     margin: 0;
     display: flex; /* Define um layout de flexbox */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .imagem-lista li {
@@ -74,13 +74,26 @@ a{
     padding: 10px;
 }
 
-.imagem-lista li:last-child {
-    margin-right: 0; /* Remove o espaçamento à direita da última imagem */
+.imagem-lista li:hover{
+    outline: 7px solid  rgba(0, 89, 255, 0.352);
+    border-radius: 10%;
+    padding: 0px;
+    margin: 0px;
+    height: 310px;
 }
-
+.titulo_contato{
+    background-color: rgba(245, 245, 245, 0.785);
+    border: 2px solid ;
+    font-size: 20px;
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 85px;
+}
 .contacts_list{
     list-style-type: none;
-    background: #fff;
+    background: rgba(245, 245, 245, 0.785);
     border: solid 2px ;
     border-radius: 5px;
+    width: 170px;
+    margin-left: 20px;
 }
