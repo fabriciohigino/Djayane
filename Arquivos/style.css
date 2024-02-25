@@ -1,7 +1,7 @@
+
 body{
     background: url(./img/imagem\ de\ fundo.jpg);
-    max-width: 1000px;
-    margin: auto;
+    border: 3px solid red;
 }
 
 .conte_title{    
@@ -72,14 +72,18 @@ a{
     border: solid 2px rgb(94, 190, 231, 0.745);
     margin-bottom: 15px;
     border-radius: 5px;
+    
 }
 
 .post{
     background: rgba(245, 245, 245, 0.785);
-    padding: 15px;
+    padding: 15px 0px 0px;
+    width: 1000px;
     border: solid 2px rgba(255, 0, 0, 0.09);
-    margin: 15px;
+    margin: 10px 0 10px 210px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .post_title{
@@ -101,6 +105,7 @@ a{
     display: flex; /* Define um layout de flexbox */
     flex-wrap: wrap;
     justify-content: center; 
+    background: rgba(245, 245, 245, 0.785);
 
 & li img{
     width: 250px;
